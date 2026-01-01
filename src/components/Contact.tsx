@@ -1,3 +1,4 @@
+
 import { useState } from 'react';
 import { Mail, MapPin, Phone, Send, CheckCircle } from 'lucide-react';
 import { supabase } from '../lib/supabase';
@@ -105,10 +106,10 @@ const Contact = () => {
               <div className="mt-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white">
                 <h4 className="text-xl font-bold mb-4">Why Work With Me?</h4>
                 <ul className="space-y-3">
-                  <li className="flex items-center gap-3">
+                  {/* <li className="flex items-center gap-3">
                     <CheckCircle size={20} />
                     <span>Microsoft Certified Azure Developer</span>
-                  </li>
+                  </li> */}
                   <li className="flex items-center gap-3">
                     <CheckCircle size={20} />
                     <span>Proven track record in healthcare & AI</span>
@@ -144,7 +145,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all"
-                      placeholder="John Doe"
+                      placeholder="Shantanu Singh"
                     />
                   </div>
 
@@ -160,7 +161,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all"
-                      placeholder="john@example.com"
+                      placeholder="shantanu@example.co"
                     />
                   </div>
 
@@ -176,7 +177,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all"
-                      placeholder="Project Inquiry"
+                      placeholder="Inquiry"
                     />
                   </div>
 
@@ -192,7 +193,7 @@ const Contact = () => {
                       required
                       rows={5}
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent outline-none transition-all resize-none"
-                      placeholder="Tell me about your project..."
+                      placeholder="Detailed description..."
                     ></textarea>
                   </div>
 

@@ -22,14 +22,14 @@ const Footer = () => {
                   <Mail size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/shantanu6207"
                   className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/shantanu201"
                   className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center transition-all"
                   aria-label="GitHub"
                 >
@@ -83,7 +83,6 @@ const Footer = () => {
                 <li>DevOps & CI/CD</li>
                 <li>Infrastructure as Code</li>
                 <li>Healthcare Applications</li>
-                <li>AI/ML Deployments</li>
               </ul>
             </div>
           </div>
@@ -92,9 +91,9 @@ const Footer = () => {
             <p className="text-gray-400 text-sm mb-4 md:mb-0">
               {currentYear} Shantanu Singh. All rights reserved.
             </p>
-            <p className="text-gray-400 text-sm flex items-center gap-2">
-              Built with <Heart size={16} className="text-red-500" /> using React, TypeScript & Azure
-            </p>
+            {/* <p className="text-gray-400 text-sm flex items-center gap-2">
+              Built with <Heart size={16} className="text-red-500" /> using React & TypeScript
+            </p> */}
           </div>
         </div>
       </div>

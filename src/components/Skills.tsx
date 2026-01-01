@@ -22,12 +22,9 @@ const Skills = () => {
       icon: Cpu,
       color: 'from-violet-500 to-purple-600',
       skills: [
-        { name: 'Azure Machine Learning', level: 88 },
         { name: 'Azure Cognitive Services', level: 85 },
-        { name: 'TensorFlow', level: 82 },
-        { name: 'PyTorch', level: 80 },
-        { name: 'Python', level: 90 },
-        { name: 'Model Deployment', level: 87 }
+        { name: 'Azure OpenAI', level:  83 },
+        { name: 'Speech', level: 80 }
       ]
     },
     {
@@ -39,8 +36,7 @@ const Skills = () => {
         { name: 'Azure DevOps Pipelines', level: 90 },
         { name: 'GitHub Actions', level: 85 },
         { name: 'Docker', level: 90 },
-        { name: 'Kubernetes', level: 85 },
-        { name: 'Helm Charts', level: 80 }
+        { name: 'Kubernetes', level: 85 }
       ]
     },
     {
@@ -51,8 +47,6 @@ const Skills = () => {
         { name: 'C#/.NET Core', level: 92 },
         { name: 'JavaScript/TypeScript', level: 88 },
         { name: 'Python', level: 90 },
-        { name: 'React', level: 85 },
-        { name: 'Node.js', level: 87 },
         { name: 'ASP.NET Core', level: 90 }
       ]
     },
@@ -74,7 +68,6 @@ const Skills = () => {
       color: 'from-red-500 to-pink-600',
       skills: [
         { name: 'Azure AD / Entra ID', level: 88 },
-        { name: 'HIPAA Compliance', level: 90 },
         { name: 'OAuth 2.0 / OIDC', level: 87 },
         { name: 'Azure Key Vault', level: 90 },
         { name: 'Security Best Practices', level: 92 }
@@ -88,8 +81,7 @@ const Skills = () => {
         { name: 'Azure Monitor', level: 88 },
         { name: 'Application Insights', level: 90 },
         { name: 'Log Analytics', level: 87 },
-        { name: 'Prometheus', level: 80 },
-        { name: 'Grafana', level: 82 }
+        { name: 'metrices', level: 85 }
       ]
     },
     {
@@ -159,7 +151,7 @@ const Skills = () => {
             ))}
           </div>
 
-          <div className="mt-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
+          {/* <div className="mt-16 bg-gradient-to-br from-blue-600 to-blue-800 rounded-2xl p-8 text-white text-center">
             <h3 className="text-3xl font-bold mb-4">Certifications</h3>
             <div className="flex flex-wrap justify-center gap-6 mt-8">
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6 min-w-[280px]">
@@ -178,7 +170,7 @@ const Skills = () => {
                 <p className="text-blue-100">Healthcare Data Security & Compliance</p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

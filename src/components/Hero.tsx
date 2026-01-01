@@ -68,7 +68,7 @@ const Hero = () => {
           </div>
 
           <p className="text-lg md:text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-            Microsoft Certified Azure Developer with expertise in cloud solutions,
+            MicrosoftAzure Developer with expertise in cloud solutions,
             DevOps practices, and infrastructure as code. Specialized in building
             scalable healthcare and AI applications on Azure.
           </p>
@@ -97,14 +97,14 @@ const Hero = () => {
               <Mail size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/shantanu6207"
               className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-all transform hover:scale-110"
               aria-label="LinkedIn"
             >
               <Linkedin size={20} />
             </a>
             <a
-              href="#"
+              href="https://github.com/shantanu201"
               className="w-12 h-12 bg-white/10 hover:bg-white/20 rounded-full flex items-center justify-center text-white transition-all transform hover:scale-110"
               aria-label="GitHub"
             >

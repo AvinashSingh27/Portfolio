@@ -3,10 +3,10 @@ import { Briefcase, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
-      role: 'Senior Software Engineer',
-      company: 'Cloud Healthcare Solutions',
-      period: '2022 - Present',
-      location: 'Remote',
+      role: 'API Integration Engineer',
+      company: 'Infinite Computer Solutions Pvt. Ltd.',
+      period: '2024 - Present',
+      location: 'Hyderabad, India',
       description: 'Leading cloud architecture and DevOps initiatives for enterprise healthcare applications',
       achievements: [
         'Architected and deployed 5 major healthcare applications on Azure, serving over 100,000+ users',
@@ -15,19 +15,6 @@ const Experience = () => {
         'Managed Infrastructure as Code using Terraform, automating cloud resource provisioning',
         'Established DevOps best practices including containerization with Docker and Kubernetes',
         'Led security implementation achieving HIPAA compliance for healthcare data processing'
-      ]
-    },
-    {
-      role: 'Azure Developer',
-      company: 'Tech Innovation Labs',
-      period: '2020 - 2022',
-      location: 'Hybrid',
-      description: 'Specialized in Azure cloud services and application development',
-      achievements: [
-        'Developed scalable microservices architecture using Azure Service Fabric',
-        'Implemented Azure Functions for serverless computing reducing operational costs by 40%',
-        'Built real-time data processing pipelines using Azure Stream Analytics',
-        'Integrated Azure Cognitive Services for intelligent application features'
       ]
     }
   ];

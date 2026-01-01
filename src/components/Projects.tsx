@@ -20,48 +20,6 @@ const Projects = () => {
       color: 'from-red-500 to-pink-500'
     },
     {
-      title: 'Electronic Health Records (EHR)',
-      category: 'healthcare',
-      icon: FileText,
-      description: 'Comprehensive EHR system with interoperability features and advanced security measures.',
-      technologies: ['Azure Kubernetes', 'Cosmos DB', 'Azure API Management', 'FHIR'],
-      highlights: [
-        'HL7 FHIR compliant',
-        'Multi-tenancy support',
-        'Advanced encryption',
-        'Audit logging'
-      ],
-      color: 'from-blue-500 to-cyan-500'
-    },
-    {
-      title: 'Telemedicine Platform',
-      category: 'healthcare',
-      icon: Activity,
-      description: 'Cloud-based telemedicine solution enabling virtual consultations with integrated billing and scheduling.',
-      technologies: ['Azure Communication Services', 'Azure Functions', 'Azure Storage', 'WebRTC'],
-      highlights: [
-        'HD video consultations',
-        'Integrated scheduling',
-        'E-prescriptions',
-        'Payment gateway'
-      ],
-      color: 'from-emerald-500 to-teal-500'
-    },
-    {
-      title: 'Healthcare Analytics Dashboard',
-      category: 'healthcare',
-      icon: Activity,
-      description: 'Real-time analytics platform providing insights into hospital operations and patient outcomes.',
-      technologies: ['Azure Synapse', 'Power BI Embedded', 'Azure Data Factory', 'Machine Learning'],
-      highlights: [
-        'Real-time KPI tracking',
-        'Predictive analytics',
-        'Custom reports',
-        'Data visualization'
-      ],
-      color: 'from-violet-500 to-purple-500'
-    },
-    {
       title: 'Appointment Scheduling System',
       category: 'healthcare',
       icon: Calendar,
@@ -76,33 +34,18 @@ const Projects = () => {
       color: 'from-orange-500 to-red-500'
     },
     {
-      title: 'AI Disease Prediction System',
+      title: 'AI Chatbot for subscribers only',
       category: 'ai',
       icon: Brain,
-      description: 'Machine learning model for early disease prediction using patient data and medical imaging.',
-      technologies: ['Azure ML', 'Azure Cognitive Services', 'Python', 'TensorFlow', 'Docker'],
+      description: 'Customer service chatbot that clarifys our services to customers.',
+      technologies: ['Azure Cognitive Services', 'Python', 'TensorFlow', 'Docker'],
       highlights: [
         '92% prediction accuracy',
         'Real-time inference',
-        'Multi-disease detection',
         'Explainable AI'
       ],
       color: 'from-indigo-500 to-blue-500'
-    },
-    {
-      title: 'Medical Imaging AI Assistant',
-      category: 'ai',
-      icon: Stethoscope,
-      description: 'Deep learning solution for automated medical image analysis and anomaly detection.',
-      technologies: ['Azure Custom Vision', 'Azure Container Instances', 'PyTorch', 'REST API'],
-      highlights: [
-        'X-ray analysis',
-        'Tumor detection',
-        'Automated reporting',
-        'DICOM support'
-      ],
-      color: 'from-pink-500 to-rose-500'
-    }
+    }  
   ];
 
   const filteredProjects = filter === 'all'

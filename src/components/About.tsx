@@ -2,12 +2,12 @@ import { Award, Code, Cloud, Database, Shield } from 'lucide-react';
 
 const About = () => {
   const highlights = [
-    {
-      icon: Award,
-      title: 'Microsoft Certified',
-      description: 'AZ-204: Azure Developer Associate',
-      color: 'from-blue-500 to-blue-600'
-    },
+    // {
+    //   icon: Award,
+    //   title: 'Microsoft Certified',
+    //   description: 'AZ-204: Azure Developer Associate',
+    //   color: 'from-blue-500 to-blue-600'
+    // },
     {
       icon: Cloud,
       title: 'Cloud Expert',
@@ -23,7 +23,7 @@ const About = () => {
     {
       icon: Database,
       title: 'AI Solutions',
-      description: 'Machine Learning Deployments',
+      description: 'Azure Coginitive Services Deployments',
       color: 'from-violet-500 to-violet-600'
     }
   ];
@@ -46,7 +46,7 @@ const About = () => {
                   <Shield className="text-white" size={80} />
                 </div>
                 <h3 className="text-2xl font-bold text-white text-center mb-4">
-                  Microsoft Certified Professional
+                  Microsoft Azure Professional
                 </h3>
                 <p className="text-blue-100 text-center text-lg">
                   AZ-204: Developing Solutions for Microsoft Azure
@@ -56,8 +56,8 @@ const About = () => {
 
             <div className="space-y-6">
               <p className="text-lg text-gray-700 leading-relaxed">
-                As a passionate Software Engineer with Microsoft Azure certification,
-                I specialize in designing and implementing enterprise-grade cloud
+                As an Azure developer/ API Integration Engineer with Microsoft Azure infrastructure
+                expertise,I specialize in designing and implementing enterprise-grade cloud
                 solutions that drive business value.
               </p>
               <p className="text-lg text-gray-700 leading-relaxed">
@@ -73,7 +73,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {highlights.map((item, index) => (
               <div
                 key={index}
@@ -97,4 +97,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About; 
